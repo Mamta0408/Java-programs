@@ -1,0 +1,36 @@
+/*Write a program to print your name.*/
+
+public class Name 
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Mamta Kushwaha");
+
+	}
+
+}
+
+--------------------------------------***********************************************----------------------------------------
+/*Write a program for a Single line comment, multi-line and documentation comments*/
+
+public class Comment 
+{
+  static int a=10; //global variable is created =>single line comment
+  
+  /*The lines inside this is 
+  a multiline comment. We can =>multiline comments
+  write n numbers of lines as
+  comments 
+  */
+  
+  /** documentation */  =>documentation comments
+  
+	public static void main(String[] args) 
+	{
+		System.out.println("Various comments");
+
+	}
+
+}
+
