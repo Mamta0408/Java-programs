@@ -1,0 +1,17 @@
+/*How to create a class, object, method and its signature*/
+
+public class Print  //creation of class
+{
+  void hello()  //creation of method
+  {
+    System.out.println("I am instance method");
+  }
+	public static void main(String[] args) 
+	{
+    Print p1=new Print();   //object creation(classname referencevariable=new classname())
+    p1.hello();
+	}
+
+}
+
+------------------------------******************************************************---------------------------------------------------------------------
